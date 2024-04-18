@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+   <!-- Navbar with classes -->
+   <nav class="navbar">
+    <ul class="navbar-list">
+        <li class="navbar-item"><a href="#home" class="navbar-link">Home</a></li>
+        <li class="navbar-item"><a href="#about" class="navbar-link">About</a></li>
+        <li class="navbar-item"><a href="#work" class="navbar-link">Work</a></li>
+        <li class="navbar-item"><a href="#resume" class="navbar-link">Resume</a></li>
+        <li class="navbar-item"><a href="#contact" class="navbar-link">Contact</a></li>
+        <li class="navbar-item"><a href="#video" class="navbar-link">Video</a></li>
+        <li class="navbar-item"><a href="#audio" class="navbar-link">Audio</a></li>
+    </ul>
+</nav>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>a Software Engineer with a passion for solving problems and learning new things, a dedicated and innovative software engineer with a fervent passion for crafting elegant solutions to complex problems. With a solid foundation in computer science and years of hands-on experience, I thrive in dynamic environments where I can leverage cutting-edge technologies to build robust, scalable, and user-centric software systems.</p>
+			<b><p>Technical Proficiency:</p></b>
+			<p>My expertise spans across a wide range of technologies and programming languages, including but not limited to:</p>
+			<ul>
+				<li>Languages: HTML, Python, JavaScript</li>
+				<li>Framworks: Django, NodeJS, React.Js</li>
+				<li>Database: MySQL, PostgreSQL, MongoDB</li>
+				<li>Tools & Technologies: Git, Docker, Kubernetes, AWS, Azure</li>
+			</ul>
+			<br>
+				<b><p>Professional Experience:</p></b>
+				    <p>Throughout my career, I've had the privilege of working on diverse projects, from developing web applications to designing and implementing complex backend systems. My experience in Agile methodologies allows me to collaborate effectively with cross-functional teams, ensuring timely delivery of high-quality software solutions.</p>
+					<b><p>Key Strengths:</p></b>
+				<ul>
+					<li>Problem-Solving: I thrive on dissecting intricate problems and devising innovative solutions that not only meet but exceed client expectations.</li>
+					<li>Continuous Learning: In the ever-evolving landscape of technology, I'm committed to staying updated with the latest trends and advancements, constantly refining my skills to deliver cutting-edge solutions.</li>
+					<li>Communication: Effective communication is paramount in software engineering, and I excel in articulating technical concepts to both technical and non-technical stakeholders, fostering a collaborative work environment.</li>
+				</ul>
+    </section>
+
+    <!-- Work Section -->
+    <section id="work" class="section">
+        <h2>My Work</h2>
+        <p>Underreview.</p>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="section">
+        <h2>My Resume</h2>
+        <p>Processing my resume.</p>
+    </section>
+
+        <!-- Video Section -->
+        <section id="video" class="section">
+            <h2>Watch My Video</h2>
+            <video width="640" height="360" controls>
+                <source src="media/videosample.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+    
+        <!-- Audio Section -->
+        <section id="audio" class="section">
+            <h2>Listen to My Audio</h2>
+            <audio controls>
+                <source src="media/audiosample.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <form action="mailto:your@email.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 FweshiOs. All rights reserved.</p>
+    </footer>
+</body>
+</html>
